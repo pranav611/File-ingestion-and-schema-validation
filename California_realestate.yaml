@@ -1,0 +1,16 @@
+file_type: csv
+dataset_name: California_realestate
+file_name: /gdrive/My Drive/RealEstate_California
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - id
+    - stateId
+    - countyId
+    - cityId
+    - country
+    - datePostString
+    - is_bankOwned
+    - is_forAuction
